@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/navMain"
+        app:showAsAction="always"
+        android:icon="@drawable/arrow_down_24"
+        android:title="Menü">
+
+        <menu>
+          <item
+              android:id="@+id/news"
+            app:showAsAction="always"
+            android:title="News"/>
+
+            <item
+                android:id="@+id/scores"
+                app:showAsAction="always"
+                android:title="Scores"/>
+
+            <item
+                android:id="@+id/standings"
+                app:showAsAction="always"
+                android:title="Standings"/>
+
+        </menu>
+    </item>
+</menu>
